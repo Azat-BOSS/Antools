@@ -1,0 +1,248 @@
+.header {
+  width: 100%;
+}
+
+.header__upper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+  color: white;
+  position: fixed;
+  z-index: 100;
+  background-color: #1E252B;
+  left: 0;
+}
+
+.header__logo__block {
+  display: flex;
+  column-gap: 1.2rem;
+  align-items: center;
+  margin-left: 11rem;
+}
+
+.header__logo {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
+.header__logo__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 1.4;
+}
+
+.header__nav {
+  display: flex;
+  column-gap: 4.5rem;
+}
+
+.header__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: gray;
+  transition: .2s ease;
+}
+
+.header__link_active {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: white;
+  transition: .2s ease;
+}
+
+.header__link:nth-child(2) {
+  position: relative;
+}
+
+.header__button__login {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: gray;
+  margin-right: 4.7rem;
+  transition: .4s ease;
+}
+
+
+.header__button__login:hover {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: white;
+  margin-right: 4.7rem;
+}
+
+.header__button__reg {
+  width: 12.4rem;
+  height: 5.4rem;
+  background: #ff6e30;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: white;
+  transition: 0.4s ease;
+  margin-right: 11rem;
+}
+
+.header__button__reg:hover {
+  opacity: 0.8;
+}
+
+.header__intro {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__intro__block__text {
+  width: 100%;
+  max-width: 66rem;
+  z-index: 50;
+}
+
+.header__intro__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.6rem;
+  line-height: 1.4;
+  color: white;
+}
+
+.header__intro__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  color: gray;
+  margin-top: 3.6rem;
+}
+
+.header__search__block {
+  width: 50rem;
+  height: 6.5rem;
+  position: relative;
+  margin-top: 6rem;
+}
+
+.header__input {
+  width: 42.5rem;
+  padding-left: 6rem;
+  padding-right: 1.5rem;
+  height: inherit;
+  background: #404a52;
+  border-radius: 15px;
+  outline: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: rgb(191, 191, 191);
+}
+
+.header__search__image {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 1.8rem;
+  left: 1.8rem;
+}
+
+.header__li {
+  width: 5.5rem;
+  height: 5.5rem;
+  opacity: 1;
+  transition: .4s ease;
+}
+
+.header__li:hover {
+  opacity: .5;
+}
+
+.header__search__button {
+  width: 12.4rem;
+  height: 5.2rem;
+  background: #ff6e30;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: white;
+  transition: 0.4s ease;
+  position: absolute;
+  right: 1.3rem;
+  top: .7rem;
+}
+
+.header__block__media {
+  display: flex;
+  column-gap: 4rem;
+  margin-left: 2rem;
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.header__fcb {
+  width: 1.9rem;
+  height: 3.1rem;
+}
+
+.header__inst {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.header__twit {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.header__bg__image {
+  background-image: url("../../images/headerImage.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 589px;
+  height: 100%;
+  max-height: 650px;
+  position: absolute;
+  right: -10rem;
+  bottom: 0;
+}
+
+.header__link__block {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.header__link__arrow {
+  width: 1.8rem;
+  height: 1.8rem;
+  padding-top: .3rem;
+}

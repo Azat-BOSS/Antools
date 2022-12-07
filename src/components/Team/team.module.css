@@ -1,0 +1,129 @@
+.team {
+  position: relative;
+}
+
+.team__swiper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25rem;
+}
+
+.team__slider {
+  display: flex;
+  justify-content: center;
+}
+
+.team__image__block {
+  margin-right: 5rem;
+  position: relative;
+}
+
+.team__quote {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.7rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 58rem;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.team__quote::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../../images/icons/quoteIcon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15rem;
+  height: 15rem;
+  top: -7.5rem;
+  left: -7.5rem;
+}
+
+
+.team__worker__info {
+  position: absolute;
+  background: rgba(40, 48, 54, 0.2);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-radius: 8px;
+  width: 27rem;
+  height: 9.1rem;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  right: 0;
+  bottom: 3rem;
+  position: absolute;
+  overflow: hidden;
+}
+
+.team__worker__info::before {
+  content: "";
+  position: absolute;
+  background: rgba(255, 110, 48, 0.7);
+  filter: blur(45px);
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  right: 3rem;
+  top: -2rem;
+}
+
+.team__worker__info::after {
+  content: "";
+  position: absolute;
+  background: rgba(65, 106, 255, 1);
+  filter: blur(45px);
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+
+.team__worker__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.4;
+  color: rgba(255, 253, 253, 0.78);
+}
+
+.team__worker__position {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: rgba(255, 253, 253, 0.55);
+}
+
+.team__worker__image {
+  width: 100%;
+  height: auto
+}
+
+.team__button__prev {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  left: -5rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.team__button__next {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: -5rem;
+  width: 5rem;
+  height: 5rem;
+}

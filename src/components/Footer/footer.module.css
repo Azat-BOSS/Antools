@@ -1,0 +1,89 @@
+.footer {
+  width: 100vw;
+  margin-top: 25rem;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+  position: absolute;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__block {
+  max-width: 28rem;
+  margin: 7rem 10rem;
+}
+
+.footer__block:first-child {
+  margin-left: 11rem;
+}
+
+.footer__logo__block {
+  display: flex;
+  column-gap: 1.2rem;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
+.footer__logo__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 1.4;
+  color: white;
+}
+
+.footer__copyright__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 2.2rem;
+}
+
+.footer__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 1.8rem;
+}
+
+.footer__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+}
+
+.footer__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.55);
+  position: relative;
+  transition: .4s ease;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__info__company {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
