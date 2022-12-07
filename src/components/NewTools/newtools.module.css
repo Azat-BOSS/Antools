@@ -3,12 +3,36 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 25rem;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px){
+  .newTools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .newTools__block__text {
   width: 100%;
   max-width: 46rem;
 }
+
+@media screen and (max-width: 1300px){
+  .newTools__block__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 65rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .newTools__block__text {
+    max-width: 80rem;
+  }
+}
+
 
 .newTools__title {
   font-family: "Poppins";
@@ -29,6 +53,27 @@
   margin-top: 3rem;
 }
 
+
+@media screen and (max-width: 1300px){
+  .newTools__title {
+    font-size: 7rem;
+  }
+  .newTools__text {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .newTools__title {
+    text-align: center;
+    font-size: 8rem;
+  }
+  .newTools__text {
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+
 .newTools__button {
   width: 20rem;
   height: 6rem;
@@ -43,9 +88,36 @@
   margin-top: 6rem;
 }
 
+@media screen and (max-width: 1300px){
+  .newTools__button {
+    text-align: center;
+    width: 20rem;
+    height: 7rem;
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .newTools__button {
+    text-align: center;
+    width: 23rem;
+    height: 8rem;
+    font-size: 2.7rem;
+  }
+}
+
 .newTools__block__cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 5rem;
   column-gap: 2.5rem;
+}
+
+
+@media screen and (max-width: 1300px){
+  .newTools__block__cards {
+    row-gap: 3rem;
+    column-gap: 1.5rem;
+    margin-top: 20rem;
+  }
 }

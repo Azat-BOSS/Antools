@@ -1,11 +1,17 @@
 .footer {
-  width: 100vw;
+  width: 100%;
   margin-top: 25rem;
   border-top: 0.5px solid rgba(255, 255, 255, 0.15);
   position: absolute;
   left: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 1130px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .footer__block {
@@ -37,6 +43,26 @@
   color: white;
 }
 
+@media screen and (max-width: 1300px) {
+  .footer__logo {
+    width: 5rem;
+    height: 5rem;
+  }
+  .footer__logo__text {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .footer__logo {
+    width: 6rem;
+    height: 6rem;
+  }
+  .footer__logo__text {
+    font-size: 4rem;
+  }
+}
+
 .footer__copyright__text {
   font-family: "Poppins";
   font-style: normal;
@@ -45,6 +71,12 @@
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.9);
   margin-top: 2.2rem;
+}
+
+@media screen and (max-width: 900px){
+  .footer__copyright__text {
+    font-size: 4rem;
+  }
 }
 
 .footer__text {
@@ -57,6 +89,12 @@
   margin-top: 1.8rem;
 }
 
+@media screen and (max-width: 900px){
+  .footer__text {
+    font-size: 2.5rem;
+  }
+}
+
 .footer__title {
   font-family: "Poppins";
   font-style: normal;
@@ -65,6 +103,12 @@
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 900px){
+  .footer__title {
+    font-size: 4rem;
+  }
 }
 
 .footer__link {
@@ -78,6 +122,12 @@
   transition: .4s ease;
 }
 
+@media screen and (max-width: 900px){
+  .footer__link {
+    font-size: 3rem
+  }
+}
+
 .footer__link:hover {
   text-decoration: underline;
 }
@@ -86,4 +136,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+}
+
+@media screen and (max-width: 900px){
+  .footer__info__company {
+    row-gap: 2rem;
+  }
 }

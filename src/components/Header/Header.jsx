@@ -68,6 +68,11 @@ const Header = () => {
           <button type="button" className={headerStyle.header__button__login}>Login</button>
           <button type="button" className={headerStyle.header__button__reg}>Sign Up</button>
         </div>
+        <button className={headerStyle.header__brg__button} type="button">
+          <span className={headerStyle.header__brg__element}></span>
+          <span className={headerStyle.header__brg__element}></span>
+          <span className={headerStyle.header__brg__element}></span>
+        </button>
       </div>
 
       <div className={headerStyle.header__intro}>
