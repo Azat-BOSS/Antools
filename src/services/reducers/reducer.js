@@ -4,7 +4,6 @@ import {
 
 const reducerStateDefault = {
   dataCardTool: [],
-  
 }
 
 export const mainReducer = (state = reducerStateDefault, action) => {

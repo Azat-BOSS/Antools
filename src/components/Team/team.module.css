@@ -31,6 +31,14 @@
   position: relative;
 }
 
+@media screen and (max-width: 700px){
+  .team__quote  {
+    font-size: 3.4rem;
+    max-width: 62rem;
+    line-height: 1.3;
+  }
+}
+
 .team__quote::before {
   content: "";
   position: absolute;
@@ -60,6 +68,17 @@
   bottom: 3rem;
   position: absolute;
   overflow: hidden;
+}
+
+@media screen and (max-width: 700px){
+  .team__worker__info  {
+    right: -7rem;
+  }
+}
+@media screen and (max-width: 570px){
+  .team__worker__info  {
+    right: -9rem;
+  }
 }
 
 .team__worker__info::before {
@@ -110,6 +129,13 @@
   height: auto
 }
 
+@media screen and (max-width: 600px){
+  .team__worker__image  {
+    width: 30rem;
+    height: 35rem;
+  }
+}
+
 .team__button__prev {
   position: absolute;
   top: 40%;
@@ -126,4 +152,14 @@
   right: -5rem;
   width: 5rem;
   height: 5rem;
+}
+
+@media screen and (max-width: 700px){
+  .team__button__prev {
+   display: none;
+  }
+  
+  .team__button__next {
+    display: none;
+  }
 }

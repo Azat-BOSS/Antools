@@ -9,6 +9,7 @@ import Team from "../Team/Team";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 
+
 const App = () => {
   return (
     <div className={appStyle.app}>
