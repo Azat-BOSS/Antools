@@ -18,14 +18,12 @@ Tools that i use:
 - React 
 - React hooks
 - Redux | Basic use
+- Responsive design
 
 
 ## Library
 - [Framer Motion](https://www.framer.com/docs/) "Framer Motion" - library to create beatiful animations for your web-app.
 - [Swiper](https://swiperjs.com/) "Swiper" - library to create modern Slider for your web-app.
-
-## Adaptivity
-The app does not support devices below 1350px
 
 ## For images
 All .png images have been formatted to .webp
