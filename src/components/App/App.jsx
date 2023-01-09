@@ -34,7 +34,8 @@ const App = () => {
       (<div className={appStyle.app__mobile}>
         <img src={errorIcon} alt="error" className={appStyle.app__mobile__image}/>
         <h3 className={appStyle.app__mobile__title}>Error</h3>
-        <p className={appStyle.app__mobile__text}>Sorry, but the application does not work on non-desktop devices</p>
+        <p className={appStyle.app__mobile__text}>Sorry, but the application does not work on non-desktop devices.</p>
+        <p className={appStyle.app__mobile__author}>@2023 Created by Azat Frontend Developer</p>
       </div>)
       }
     </>

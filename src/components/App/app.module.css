@@ -34,5 +34,17 @@
   max-width: 90rem;
   text-align: center;
   margin-top: 2rem;
-  line-height: 1.2;
+  line-height: 1.4;
+}
+
+.app__mobile__author {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  width: 100%;
+  max-width: 70rem;
+  text-align: center;
+  margin-top: 3rem;
+  line-height: 1.4;
 }
