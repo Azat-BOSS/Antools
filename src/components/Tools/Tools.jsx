@@ -8,6 +8,7 @@ import { dataTools } from "../../utils/data";
 import { useDispatch, useSelector } from "react-redux";
 
 import { motion } from "framer-motion"
+
 const Tools = () => {
   const dataCardInfo = useSelector(state => (state.cards.dataCardTool))
   const dispatch = useDispatch()
